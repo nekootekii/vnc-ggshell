@@ -2,7 +2,7 @@ import os
 
 cmd = 'sudo apt-get update'
 os.system(cmd)
-cmd = 'sudo apt-get install ubuntu-gnome-desktop -y'
+cmd = 'sudo apt-get install xfce4-terminal -y'
 os.system(cmd)
 cmd = 'sudo apt-get install geany -y'
 os.system(cmd)
